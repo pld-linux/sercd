@@ -1,6 +1,6 @@
 # TODO: make rc-inetd config file (based on included sercd.xinetd)
 Summary:	RFC 2217 Serial Communications Daemon
-Summary(pl):	Demon do komunikacji szeregowej zgodny z RFC 2217
+Summary(pl.UTF-8):   Demon do komunikacji szeregowej zgodny z RFC 2217
 Name:		sercd
 Version:	2.3.2
 Release:	0.1
@@ -16,10 +16,10 @@ sercd is a serial port redirector that is compliant with the RFC 2217
 "Telnet Com Port Control Option" protocol. This protocol lets you
 share a serial port through the network.
 
-%description -l pl
-sercd to narzêdzie do przekierowywania portów szeregowych zgodne z
-protoko³em RFC 2217 "Telnet Com Port Control Option". Protokó³ ten
-pozwala na wspó³dzielenie portu szeregowego przez sieæ.
+%description -l pl.UTF-8
+sercd to narzÄ™dzie do przekierowywania portÃ³w szeregowych zgodne z
+protokoÅ‚em RFC 2217 "Telnet Com Port Control Option". ProtokÃ³Å‚ ten
+pozwala na wspÃ³Å‚dzielenie portu szeregowego przez sieÄ‡.
 
 %prep
 %setup -q
