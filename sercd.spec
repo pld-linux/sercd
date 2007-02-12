@@ -1,6 +1,6 @@
 # TODO: make rc-inetd config file (based on included sercd.xinetd)
 Summary:	RFC 2217 Serial Communications Daemon
-Summary(pl.UTF-8):   Demon do komunikacji szeregowej zgodny z RFC 2217
+Summary(pl.UTF-8):	Demon do komunikacji szeregowej zgodny z RFC 2217
 Name:		sercd
 Version:	2.3.2
 Release:	0.1
