@@ -1,0 +1,11 @@
+SERVICE_NAME=sercd
+SOCK_TYPE=stream
+SERVICE_TYPE=UNLISTED
+PROTOCOL=tcp
+PORT=7000
+FLAGS=nowait
+USER=nobody
+GROUP=dialout
+SERVER=tcpd
+DAEMON=/usr/sbin/sercd
+DAEMONARGS="5 /dev/modem /var/lock/LCK..modem"
